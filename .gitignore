@@ -1,0 +1,18 @@
+# MATLAB - pliki tymczasowe i autosave
+*.asv
+*.m~
+*.autosave
+*.mex*
+
+# Simulink - cache i wygenerowany kod
+*.slxc
+*.slx.r*
+*.mdl.r*
+slprj/
+sccprj/
+codegen/
+work/
+
+# Windows
+Thumbs.db
+desktop.ini
