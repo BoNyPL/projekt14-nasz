@@ -10,3 +10,11 @@ az.Umax = 24;   % nasycenie napięcia [V]
 U_skok = 12;  % wartość skoku napięcia [V]
 t_skok = 1;   % chwila skoku [s]
 Tsim   = 5;   % czas symulacji [s]
+
+%%oś elewacji
+az.Tw = 0.05;
+az.Kp_w = az.T/(az.K*az.Tw);
+az.Ki_w = az.Kp_w/az.T; 
+az.Kp_th = 1/(2*az.Tw);  
+az.wmax = 1.0;
+theta_zad = deg2rad(90);
