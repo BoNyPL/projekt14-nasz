@@ -35,4 +35,10 @@ el.stop_max = deg2rad(90);
 el.amax = 4;
 az.th0 = deg2rad(350);
 el.th0 = deg2rad(30);
-el.theta_zad = deg2rad(89);
+
+%%Etap 3
+scen.Tsim    = 8;              % czas symulacji [s]
+scen.az_ref  = deg2rad(10);    % zadany azymut
+scen.el_ref1 = deg2rad(89);    % zadana elewacja do t = 4 s (ponad zakresem)
+scen.el_ref2 = deg2rad(-10);   % zadana elewacja od t = 4 s (poniżej zakresu)
+scen.el_t    = 4;              % chwila zmiany zadanej elewacji [s]

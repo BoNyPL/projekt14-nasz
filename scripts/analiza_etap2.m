@@ -4,6 +4,7 @@ th = out.logsout.get('theta').Values;   % kąt
 w  = out.logsout.get('omega').Values;   % prędkość
 U  = out.logsout.get('U').Values;       % napięcie
 
+
 info = stepinfo(th.Data, th.Time, theta_zad);   % dane kąta, czas, wartość końcowa
 fprintf('Przeregulowanie: %.2f %%\n', info.Overshoot);
 fprintf('Czas ustalania: %.3f s\n', info.SettlingTime);
