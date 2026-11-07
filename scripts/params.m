@@ -42,3 +42,8 @@ scen.az_ref  = deg2rad(10);    % zadany azymut
 scen.el_ref1 = deg2rad(89);    % zadana elewacja do t = 4 s (ponad zakresem)
 scen.el_ref2 = deg2rad(-10);   % zadana elewacja od t = 4 s (poniżej zakresu)
 scen.el_t    = 4;              % chwila zmiany zadanej elewacji [s]
+
+%%Etap 4
+cel.p0   = [-3000 1500 800];
+cel.v    = [150 0 0];
+cel.Tsim = 40;
