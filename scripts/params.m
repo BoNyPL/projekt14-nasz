@@ -47,3 +47,5 @@ scen.el_t    = 4;              % chwila zmiany zadanej elewacji [s]
 cel.p0   = [-3000 1500 800];
 cel.v    = [150 0 0];
 cel.Tsim = 40;
+az.ff    = 1;
+el.ff    = 1;
